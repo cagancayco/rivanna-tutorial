@@ -1,0 +1,12 @@
+#%Module3.0#######################################################################
+#Created on Thu Jul 31 09:16:25 EDT 2014.
+#ANTs - 1
+##
+proc ModulesHelp { } {
+        puts stderr "\tThis module loads ANTs.\n"
+}
+module-whatis   "loads ANTs."
+
+
+set     version         1 
+prepend-path   PATH    /path/to/your/ants/bin/
